@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.infologs" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Antibiotics</name>
+    <description>
+        YoutubeAPI
+    </description>
+    <author email="wally_adp@hotmail.com" href="http://phonegap.com">
+        Wally B. Muhammad
+    </author>
+
+    <allow-navigation href="https://apis.google.com/js/client.js?onload=init"/>
+    <allow-navigation href="https://code.jquery.com/jquery-2.1.3.min.js"/>
+     <allow-navigation href="AIzaSyDAh9MFD8s5CLARHYyFfnjG-ICtXhIeiKc"/>
+      <allow-navigation href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+      <allow-navigation href="https://youtube.com"/>
+    <access origin="*" />
+
+
+    <content src="index.html" />
+    <access origin="*" />
+        <plugin name="cordova-plugin-whitelist" source="npm" />
+            <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.0" />
+  <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+  <plugin name="cordova-plugin-network-information" source="npm" />
+ 
+</widget>
+
+            <!-- Allow images, xhrs, etc. to youtube.com -->
+<access origin="http://google.com" />
+<access origin="https://youtube.com" />
+ 
+<!-- Access to the subdomain youtube.com -->
+<access origin="http://youtube.com" />
+ 
+<!-- Access to all the subdomains on youtube.com -->
+<access origin="http://*youtube.com" />
+ 
+<!-- Enable requests to content: URLs -->
+<access origin="content:///*" />
+ 
+<!-- Don't block any requests -->
+<access origin="*" />
+
+
+
+</widget>
